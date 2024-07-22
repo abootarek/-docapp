@@ -12,9 +12,6 @@ class OnbordingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Welcome'),
-      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.only(
