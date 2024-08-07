@@ -5,4 +5,6 @@ class ColorsApp {
   static Color mainblack = const Color(0xFF242424);
   static Color gray = const Color(0xFF757575);
   static Color white = const Color(0xFFFFFFFF);
+  static Color graywhight = const Color(0xffC2C2C2);
+  static Color lightgray = const Color(0xffFDFDFF);
 }

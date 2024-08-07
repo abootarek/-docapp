@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/core/helper/sixbox.dart';
 import 'package:flutter_application_1/core/theming/style.dart';
 import 'package:flutter_application_1/featuers/onbording/ui/widget/doc_image_and_name.dart';
 import 'package:flutter_application_1/featuers/onbording/ui/widget/doc_logo_and_name.dart';
@@ -21,7 +22,7 @@ class OnbordingScreen extends StatelessWidget {
           child: Column(
             children: [
               const DocLogoAndName(),
-              SizedBox(height: 41.h),
+              virticalspace(41),
               const DocImageAndName(),
               Padding(
                 padding: EdgeInsets.symmetric(
@@ -35,7 +36,7 @@ class OnbordingScreen extends StatelessWidget {
                       style: TextStyles.font13gray,
                       textAlign: TextAlign.center,
                     ),
-                    SizedBox(height: 30.h),
+                    virticalspace(30),
                     const GetStartedButton(),
                   ],
                 ),
