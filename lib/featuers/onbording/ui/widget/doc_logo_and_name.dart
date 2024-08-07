@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/core/helper/sixbox.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -11,9 +12,7 @@ class DocLogoAndName extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SvgPicture.asset('assets/svgs/doclogo.svg'),
-        SizedBox(
-          width: 8.w,
-        ),
+        horixontalspace(8),
         Image.asset('assets/images/Docdoc_name.png'),
       ],
     );
