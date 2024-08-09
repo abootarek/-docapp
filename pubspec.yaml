@@ -28,12 +28,21 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  build_runner: ^2.4.12
   cupertino_icons: ^1.0.6
+  dio: ^5.5.0+1
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.4.1
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.10+1
+  freezed: ^2.5.7
+  freezed_result: ^1.0.3+1
+  json_serializable: ^6.8.0
+  pretty_dio_logger: ^1.4.0
+  retrofit: ^4.1.0
+  retrofit_generator: ^8.1.2
+  # shared_preferences: ^2.3.1
 dev_dependencies:
   flutter_lints: ^3.0.0
   flutter_test:
