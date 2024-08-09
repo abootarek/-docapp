@@ -7,6 +7,7 @@ part 'login_response.g.dart';
 class LoginResponse {
   String? message;
   bool? status;
+  @JsonKey(name: 'data')
   UserData? data;
   int? code;
   LoginResponse({
