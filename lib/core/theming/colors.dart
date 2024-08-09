@@ -7,4 +7,6 @@ class ColorsApp {
   static Color white = const Color(0xFFFFFFFF);
   static Color graywhight = const Color(0xffC2C2C2);
   static Color lightgray = const Color(0xffFDFDFF);
+  static Color transparent = const Color(0xff9E9E9E);
+  static Color black = const Color(0xff242424);
 }

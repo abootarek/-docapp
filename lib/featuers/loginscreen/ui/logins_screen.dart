@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/core/helper/extintion.dart';
 import 'package:flutter_application_1/core/helper/sixbox.dart';
 import 'package:flutter_application_1/core/routing/routs.dart';
+import 'package:flutter_application_1/core/theming/colors.dart';
 import 'package:flutter_application_1/core/theming/style.dart';
 import 'package:flutter_application_1/core/widget/app_text_button.dart';
 import 'package:flutter_application_1/core/widget/app_text_form_field.dart';
+import 'package:flutter_application_1/featuers/loginscreen/ui/widget/richtext.dart';
+import 'package:flutter_application_1/featuers/loginscreen/ui/widget/social_networking_login.dart';
+import 'package:flutter_application_1/featuers/loginscreen/ui/widget/text_and_divider_login.dart';
 import 'package:flutter_application_1/featuers/loginscreen/ui/widget/text_welcome.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -99,6 +103,29 @@ class _LoginScreenState extends State<LoginScreen> {
                     },
                     textStyle: TextStyles.font16white,
                   ),
+                  virticalspace(46),
+                  const TextDividerLogin(),
+                  virticalspace(32),
+                  const SocialNetworkingLogin(),
+                  virticalspace(32),
+                  const RichTextComponant(),
+                  virticalspace(24),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Already have an account yet?',
+                        style: TextStyles.font13black,
+                      ),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          'Sign Up',
+                          style: TextStyles.font12mainblue,
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
